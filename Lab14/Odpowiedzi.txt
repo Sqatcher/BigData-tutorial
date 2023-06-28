@@ -1,0 +1,8 @@
+Proces modelowania danych - "Modelowanie danych to proces analizowania oraz definiowania wszystkich typów danych zbieranych i tworzonych w firmie, a także relacji między tymi danymi."
+Cardinality - wielkość zbioru danych, w szczególności może oznaczać liczbę wartości kategorycznych przyjmowanych przez daną zmienną
+Normalizacja i denormalizacja - "Normalizacja to bezstratny proces organizowania danych w tabelach mający na celu zmniejszenie ilości danych składowanych w bazie oraz wyeliminowanie potencjalnych anomalii", polega na sprowadzaniu do kolejnych postaci normalnych od 1NF do 3NF. Denormalizacja polega z kolei na wprowadzeniu nadmiarowych danych do bazy danych w celu przyspieszenia operacji (kosztem pamięci)
+Datamart - "A data mart is a data storage system that contains information specific to an organization's business unit. It contains a small and selected part of the data that the company stores in a larger storage system. Companies use a data mart to analyze department-specific information more efficiently. It provides summarized data that key stakeholders can use to quickly make informed decisions." Specyficzny dla danej organizacji wycinek danych dostępny "pod ręką".
+Lakehouse (czym się różni od hurtowni) - pozwala na przeprowadzanie operacji uczenia maszynowego lub ogólnie stosowania sztucznej inteligencji bezpośrednio z data lake'ów, dodatkowo pozwala na przechowywanie dowolnego typu danych w przeciwieństwie do hurtowni, gdzie dane muszą być chociaż częściowo ustrukturyzowane.
+
+OLAP Cube - reprezentacja problemu wielowymiarowego, w którym wiele parametrów zależy od siebie nawzajem w postaci wielowymiarowej kostki.
+Znacznie szybsze od relacyjnych baz danych, pozwala na większą elastyczność w modyfikowaniu problemu / zagadnienia.
